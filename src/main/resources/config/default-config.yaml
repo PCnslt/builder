@@ -1,0 +1,33 @@
+# Default Configuration for GitHub History Builder
+
+# Author information
+author_name: "Contribution Bot"
+author_email: "bot@example.com"
+
+# Historical data configuration
+years_back: 5
+# Optionally specify explicit date range (overrides years_back)
+# start_date: 2020-01-01
+# end_date: 2025-12-06
+
+# Distribution pattern: RANDOM, INTELLIGENT, SEASONAL, WEEKDAY_BIASED
+pattern: INTELLIGENT
+
+# Commit frequency configuration
+commits_per_day_min: 1
+commits_per_day_max: 5
+
+# Probability of having commits on any given day (0.0 - 1.0)
+contribution_probability: 0.4
+
+# Modifiers for intelligent distribution
+weekday_probability_boost: 1.5      # 50% more likely on weekdays
+weekend_probability_reduction: 0.5  # 50% less likely on weekends
+
+# Repository settings
+repository_path: "./generated-github-repo"
+
+# Execution options
+dry_run: false
+verbose: false
+

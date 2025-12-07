@@ -1,0 +1,23 @@
+# Aggressive Configuration - More active contributor
+author_name: "Power Contributor"
+author_email: "power@example.com"
+
+years_back: 5
+pattern: INTELLIGENT
+
+# More commits per day
+commits_per_day_min: 3
+commits_per_day_max: 10
+
+# Higher contribution probability
+contribution_probability: 0.7
+
+# Much stronger weekday bias
+weekday_probability_boost: 2.0
+weekend_probability_reduction: 0.2
+
+repository_path: "./aggressive-github-repo"
+
+dry_run: false
+verbose: false
+
